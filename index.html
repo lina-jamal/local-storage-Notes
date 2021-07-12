@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Storage Note</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div id="formDiv">
+        <h1>Local Storage</h1>
+
+        <form id="carForm">
+            <br> </br>
+
+            <label for="carBrand">Car</label>
+            <input type="text" id="carBrand" placeholder="Car brand" autofocus>
+            <br> </br>
+            <label for="carPrice">Price</label>
+            <input type="text" id="carPrice" placeholder="Price">
+            <br> </br>
+            <label for="key">Key</label>
+            <input type="text" id="key" placeholder="Key">
+            <br> </br>
+
+            <button type="submit">Store Records</button>
+        </form>
+
+        <br> </br>
+
+        <div class="getDate">
+            <br> </br>
+            <label for="gettingKey">Enter Key to getting item</label>
+            <input type="text" id="gettingKey" placeholder="gettingKey"><br>
+            <br> </br>
+            <button id="getButton">get records</button>
+            <br> </br>
+            <div id="getting"></div>
+            <br> </br>
+        </div>
+        <label for="removeKey">Enter Key to delete item</label>
+        <input type="text" id="removeKey" placeholder="removeKey">
+        <br> </br>
+
+        <div>
+            <button id="removeButton">Remove record</button>
+
+            <button id="clearButton">Clear all records</button>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+
+</body>
+
+</html>

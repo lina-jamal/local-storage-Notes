@@ -1,0 +1,18 @@
+#formDiv {
+  margin: 100px;
+}
+
+#carForm {
+  border: 3px solid black;
+  width: 500px;
+  height: 250px;
+  text-align: center;
+  background-color: rgb(156, 167, 177);
+  /* margin: auto; */
+}
+/* .getDate {
+  border: 3px solid black;
+  width: 500px;
+  height: 170px;
+  text-align: center;
+} */
